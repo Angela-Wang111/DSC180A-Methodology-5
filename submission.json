@@ -1,0 +1,4 @@
+{
+    "dockerhub-id": "angela010101/horse5:latest",
+    "build-script": "python run.py test vgg16"
+}
