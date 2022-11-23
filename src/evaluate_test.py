@@ -57,4 +57,4 @@ def plot_pearson_r(y_test, y_true, color = "#4CB391"):
     plt.title('r = {}'.format(np.around(corr, 3)))
     
     fig = pearson_plot.get_figure()
-    fig.savefig("pearson_r.png")
+    fig.savefig("output/pearson_r.png")

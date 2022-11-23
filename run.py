@@ -74,7 +74,7 @@ def main(targets):
         
         plot_pearson_r(y_test, y_true)
         
-        with open('results.txt', 'w') as f:
+        with open('output/results.txt', 'w') as f:
             f.write('The training loss are: ' + str(train_loss))
             f.write('The validation loss are: ' + str(val_loss))
             f.write('The true log BNPP value are: ' + str(y_true))
